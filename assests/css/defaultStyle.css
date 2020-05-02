@@ -17,7 +17,7 @@ footer {
 
 /* navigation custom styling */
 .customNavBg {
-    background-color: #34af95!important;
+    background-color: #FA9C90!important;
 }
 
 .customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
@@ -56,7 +56,7 @@ footer {
 }
 
 .customNavBg a.dropdown-item {
-    color: #34af95;
+    color: #FA9C90;
     background-color: transparent;
 }
 
