@@ -26,12 +26,7 @@ body {
     justify-content: center;
 }
 
-.avataImage {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    transform: translateY(-75px);
-}
+
 
 .headlineTitle h1 {
     text-align: center;
@@ -47,7 +42,7 @@ body {
 
 /* hr styling */
 hr {
-    border-color: #34af95 !important;
+    border-color: #FA9C90 !important;
 }
 
 hr.firstHr {
@@ -77,7 +72,7 @@ hr.firstHr {
 
 .education .subSectionBox div:first-child>p {
     font-weight: bold;
-    color: #34af95;
+    color: #FA9C90;
 }
 
 .eduDesBox {
@@ -99,12 +94,12 @@ hr.firstHr {
 }
 
 .experience div.subSectionBox div.col-3 p:first-child {
-    color: #34af95;
+    color: #FA9C90;
 }
 
 p.year {
     font-weight: lighter;
-    color: gray;
+    color: rgb(44, 40, 34) !important;
     font-style: italic;
 }
 

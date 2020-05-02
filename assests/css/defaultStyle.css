@@ -5,7 +5,7 @@ body {
 
 footer {
     padding:40px;
-    background: #34af95;
+    background: #FA9C90;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -40,7 +40,7 @@ footer {
 } */
 
 .customNavBg li.nav-item.active > a {
-    color: orange;
+    color: white;
     font-weight: bold;
 }
 
@@ -61,6 +61,6 @@ footer {
 }
 
 .customNavBg a.dropdown-item:hover {
-    color: orange;
+    color: rgb(44, 40, 34) !important;
     text-decoration: underline;
 }
