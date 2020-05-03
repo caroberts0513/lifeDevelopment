@@ -143,7 +143,9 @@ p.year {
     top: 5px;
     left: 20px;
 }
-   
+   .technicalSkills{
+       width: 600 px;
+   }
 /* line */
 .vl {
         border-left: 6px solid #5C5955;
