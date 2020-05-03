@@ -14,16 +14,17 @@ body {
     justify-content: center;
 }
 
-.topSection,
+
 .middleSection,
 .bottomSection {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
 .experience,
 .education {
     margin-top: 40px
+    
 }
 
 .avataContainer div {
@@ -37,7 +38,7 @@ body {
     text-align: center;
     transform: translateY(-50px);
     text-transform: uppercase;
-    font-size: medium;
+    font-size: xx-large;
     
 }
 
@@ -46,7 +47,7 @@ body {
     font-weight: bold;
     letter-spacing: 16px;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     
 }
 
@@ -75,17 +76,6 @@ hr.firstHr {
     margin: 20px 0;
 }
 
-/* Education */
-.education .subSectionBox {
-    margin-right: 20px;
-    align-items: center;
-}
-
-.education .subSectionBox div:first-child>p {
-    font-weight: bold;
-    color: #FA9C90;
-}
-
 
 
 
@@ -109,28 +99,35 @@ p.year {
 
 
 
-
-
-/* skills */
-.technicalSkills p,
-.softSkills p {
-    
-    padding: 10px 5px;
-    border-radius: 10px;
-    color: black;
-    text-align: center;
+/* Container for skill bars */
+.container {
+  width: 50; /* Full width */
+  background-color: rgb(255, 255, 255); 
 }
 
-
-
-.right {
-    text-align: right;
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color: white; /* White text color */
 }
+
+.html {width: 4000%; background-color: #FA9C90;} 
+.css {width: 3500%; background-color: #FA9C90;} 
+.js {width: 2000%; background-color: #FA9C90;} 
+.php {width: 2400%; background-color: #FA9C90;} 
+
+.creative {width: 5000%; background-color: #FA9C90;} 
+.resourceful {width: 3000%; background-color: #FA9C90;} 
+.teamwork {width: 4000%; background-color: #FA9C90;} 
+.management {width: 3500%; background-color: #FA9C90;} 
+
+
 
 /* project sections */
 .projectSection {
     width: 600 px;
-        height: 70 px;
+        height: 200 px;
       
         float: right;
        
