@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Life Development Final</title>
@@ -100,7 +101,14 @@
            top: 40%;
            
          }
-         
+         /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+  .row {
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+  }
+}
 
          </style>
          </head>
@@ -113,18 +121,23 @@
             <!-- body -->
             
               <div class="row">
-                
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 
                 <section class="middleSection">
                     <div class="row">
-                  <div class="col-5">
+                  <div class="col-5 ">
+
+         
+     
+                 
                       <!-- left handside -->
                     <div class="aboutSection">
-                        <h5 class="sectionTitle"><i class="fas fa-user-circle"></i>Contact</h5>
+                      
+                        <h5 class="sectionTitle"><i class="fas fa-user-circle"></i>Contact</h5> 
                         <p>
                             <i class="fas fa-globe"style="color:#FA9C90;"></i> https://caroberts0513.github.io/
                             <br>
-                                                    lifeDevelopment/index.html
+                            lifeDevelopment/index.html
                             <br>
                             <i class="fas fa-envelope"style="color:#FA9C90;"></i> caroberts@cpp.edu
                             <br>
@@ -138,7 +151,7 @@
                 <h5 class="sectionTitle"><i class="fas fa-graduation-cap"></i>Education</h5>
                 <div class="row subSectionBox">
                     <div class="col-5">
-                        <p><span style= "color: #FA9C90">Cal Poly Pomona - </span> <b>BS in Visual Communications Design </b>
+                        <p><span style= "color: #FA9C90">Cal Poly Pomona </span> <b>- BS in Visual Communications Design </b>
                             <br> 
                             1st year student(2019 - 2023) 
                             <br>
@@ -183,9 +196,27 @@
                   <div class="col-7">
                       <!-- right handside -->
                       <!-- Projects -->
+                      <hr1 style="width:110%;text-align:left;margin-left:0;border-width: medium; border-color: #5C5955; ">
+                      <style>
+                          /* If the screen size is 600px wide or less, hide the element */
+                      @media only screen and (min-width: 750px) {
+                        .hr1 {
+                          display: none;
+                        }
+                    }
+                      </style>
               <div class="row">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <div class="aboutSection"></div>
-                
+                <hr1 style="width:110%;text-align:left;margin-left:0;border-width: medium; border-color: #5C5955; ">
+                    <style>
+                        /* If the screen size is 600px wide or less, hide the element */
+                    @media only screen and (min-width: 750px) {
+                      .hr1 {
+                        display: none;
+                      }
+                  }
+                    </style>
               <div class="projectSection">
                
                 <h5 class="sectionTitle"><i class="fas fa-pencil-alt"></i>Projects</h5>
@@ -212,10 +243,11 @@
             <hr style="width:110%;text-align:left;margin-left:0;border-width: medium; border-color: #5C5955; ">
              <!-- skills -->
          <div class="row">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <div class="aboutSection">
-                <div class="col-lg-7 softSkills">
+                <div class="col-lg-7 col-s-12 softSkills">
                     <div class="row"> 
-                        <div class="col-6">
+                        <div class="col-5">
                             <h5 class="sectionTitle"><i class="fas fa-chart-bar"></i></i>Technical Skills</h5>
                         <p>Illustrator</p>
                             <div class="container">
@@ -237,7 +269,7 @@
                         <div class="skills php">68% </div>
                     </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-7">
                         <div class="col-lg-7 softSkills">
                 
                             <h5 class="sectionTitle"><i class="fas fa-hands-helping"></i></i>Personal Skills</h5>
@@ -276,7 +308,8 @@
         <hr style="width:110%;text-align:center;margin-left:0;border-width: medium; border-color: #5C5955; ">
         <!-- Awards -->
         <div class="awardsSection">
-            <h5 class="sectionTitle"><i class="fas fa-award"></i>Awards</h5>
+            <div class="col-9">
+                <h5 class="sectionTitle"><i class="fas fa-award"></i>Awards</h5>
             <p>
                 <b> Girl Scout, Gold Award</b>
                 <br>
@@ -299,6 +332,12 @@
               </div>
              
 
+               
+               
+             
+            
+       
+          
                
                
              

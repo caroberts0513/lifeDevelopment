@@ -77,7 +77,12 @@ hr.firstHr {
 }
 
 
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 690px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 /* Experience */
 .experience .subSectionBox div.row {
@@ -100,27 +105,25 @@ p.year {
 
 
 /* Container for skill bars */
-.container {
-  width: 50; /* Full width */
-  background-color: rgb(255, 255, 255); 
-}
+
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 2px; /* Add top padding */
-  padding-bottom: 2px; /* Add bottom padding */
+  padding-top: 0px; /* Add top padding */
+  padding-bottom: 0px; /* Add bottom padding */
   color: white; /* White text color */
+  width: 100%;
 }
 
-.html {width: 40%; background-color: #FA9C90;} 
-.css {width: 20%; background-color: #FA9C90;} 
-.js {width: 20%; background-color: #FA9C90;} 
-.php {width: 40%; background-color: #FA9C90;} 
+.html {width: 114%; background-color: #FA9C90;} 
+.css {width: 85%; background-color: #FA9C90;} 
+.js {width: 65%; background-color: #FA9C90;} 
+.php {width: 73%; background-color: #FA9C90;} 
 
-.creative {width: 50%; background-color: #FA9C90;} 
-.resourceful {width: 30%; background-color: #FA9C90;} 
-.teamwork {width: 40%; background-color: #FA9C90;} 
-.management {width: 30%; background-color: #FA9C90;} 
+.creative {width: 140%; background-color: #FA9C90;} 
+.resourceful {width: 100%; background-color: #FA9C90;} 
+.teamwork {width: 110%; background-color: #FA9C90;} 
+.management {width: 132%; background-color: #FA9C90;} 
 
 
 
@@ -135,7 +138,11 @@ p.year {
 .right {
     text-align: right;
 }
-
+.icon {
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
    
 /* line */
 .vl {
@@ -176,12 +183,12 @@ p.year {
     }
      
      @media only screen and (max-width: 750px) {
-         .row
-        [class="col"] {
+         .projectSection
+        [class="col-"] {
             width: 500%;
           }
         
-    }
+        }
 
 
 
