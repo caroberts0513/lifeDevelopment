@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 120px;
 }
 
@@ -17,7 +17,7 @@ footer {
 
 /* navigation custom styling */
 .customNavBg {
-    background-color: #34af95!important;
+    background-color: #FA9C90!important;
 }
 
 .customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
@@ -40,7 +40,7 @@ footer {
 } */
 
 .customNavBg li.nav-item.active > a {
-    color: orange;
+    color: white;
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ footer {
 }
 
 .customNavBg li > a:hover {
-    color: orange;
+    color: rgb(44, 40, 34) !important;
     text-decoration: underline;
     font-weight: bold;
     transform: scale(1.2);
