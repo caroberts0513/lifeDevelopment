@@ -51,18 +51,12 @@ body {
 }
 
 /* hr styling */
-hr {
-    border-color: rgb(44, 40, 34) !important;
-    border-top: 7px solid rgba(0,0,0,.1);
-    border-top-width: 7px;
-    border-top-style: solid;
-    border-top-color: rgba(0, 0, 0, 0.1);
-}
-
-
 
 hr.firstHr {
     transform: translateY(-30px);
+    size: 12px;
+    border-color: rgb(44, 40, 34) !important;
+    border-width: thick;
 }
 
 .experience hr {
@@ -100,9 +94,7 @@ hr.firstHr {
     align-items: center;
 }
 
-.experience div.subSectionBox div.col-3 p:first-child {
-    color: #FA9C90;
-}
+
 
 p.year {
     font-weight: lighter;
@@ -115,13 +107,9 @@ p.year {
     color: black;
 }
 
-/* contact */
-.contact i {
-    font-size: 20px;
-    color: #34af95;
-    font-size: 20px;
-    margin-right: 5px;
-}
+
+
+
 
 /* skills */
 .technicalSkills p,
@@ -142,23 +130,16 @@ p.year {
 /* project sections */
 .projectSection {
     width: 600 px;
-        height: 800 px;
-        float: left;
-}
+        height: 70 px;
       
+        float: right;
+       
+}
+.right {
+    text-align: right;
+}
+
    
-
-
-/* fun fact section */
-.funFact {
-    justify-content: space-between;
-}
-
-.funFact span {
-    padding-right: 10px;
-    color: #34af95;
-    font-size: 20px;
-}
 /* line */
 .vl {
         border-left: 6px solid #5C5955;
@@ -183,22 +164,7 @@ p.year {
 
 
 
-/* MEDIA QUERIES */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    .experience p.description {
-        display: none;
-    }
 
-    .experience hr {
-        margin-right: 0;
-    }
 
-    .education .subSectionBox {
-        margin-right: 0;
-    }
 
-    .experience .jobTitle {
-        float: right;
-    }
-}
+
