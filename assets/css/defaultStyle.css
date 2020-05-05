@@ -64,3 +64,10 @@ footer {
     color: orange;
     text-decoration: underline;
 }
+
+.avataImage {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transform: translateY(-75px);
+}

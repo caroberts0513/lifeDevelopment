@@ -11,7 +11,10 @@ body {
     border-style: dotted;
 }
 
-
+/* hero banner */
+.banner{
+    background-image: url("../images/walrus.jpg");
+}
 
 
 /* pseudo class exercise */
