@@ -13,6 +13,7 @@
 
     <!-- local style sheet -->
     <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/homePage.css" type="text/css" />
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -46,146 +47,93 @@
 </nav>
 </head>
 
+
 <body>
-    <body>
-        <div class="container-fluid nonProfitContainer">
-            <div class="logoContainer">
-                <img src="assets/images/logo.png" class="logo" width="400" height="auto" />
+    <div class="container-fluid nonProfitContainer">
+        <div class="logoContainer">
+            <img src="assets/images/logo.png" class="logo" width="400" height="auto" />
+        </div>
+
+        <!-- navigation  -->
+        <nav class="navbar navbar-expand-md nonProfitNav">
+            <!-- hamburger icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nonProfitNav"
+                aria-controls="nonProfitNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nonProfitNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#aboutSection">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#siteMapSection">Sitemap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#styleGuideSection">Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">User Persona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Wireframe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Prototypes</a>
+                    </li>
+                </ul>
             </div>
-    
-            <!-- navigation  -->
-            <nav class="navbar navbar-expand-md nonProfitNav">
-                <!-- hamburger icon -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nonProfitNav"
-                    aria-controls="nonProfitNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                    </span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="nonProfitNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="#aboutSection">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="#siteMapSection">Sitemap</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="#styleGuideSection">Style Guide</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">User Persona</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Wireframe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Prototypes</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        </nav>
 
-            <div class="container-fluid">
-                <!-- hero banner banner-->
-                <div class="hero banner">
-                   
-        <br>
-                    <h1>Main hero content</h1>
-                    <p> block text</p>
-                    <button> click me</button>
-                </div>
+
+        <!-- ABout section -->
+        <section id="aboutSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="aboutDiv">
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
             </div>
-            
-            <!-- image card gallery-->
-            <section class="gallerySection">
-                <div class="row">
-                    <!-- 1st card-->
-                    <div class="card col-sm-6 col-md-3">
-                        <h5 class="card-header">Featured</h5>
-                        <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                      <!-- 2nd card -->
-                      <div class="card col-sm-6 col-md-3">
-                        <h5 class="card-header">Featured</h5>
-                        <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                      <!-- 3rd card -->
-                      <div class="card col-sm-6 col-md-3">
-                        <h5 class="card-header">Featured</h5>
-                        <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                      <!-- 4th card -->
-                      <div class="card col-sm-6 col-md-3">
-                        <h5 class="card-header">Featured</h5>
-                        <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div>
-    
-                </section>
+        </section>
 
-                <!-- contact section -->
-                <section class="contactSection">
-                    <div class="row">
-                        <div class="leftSide col-md-8">
-                            <h3> contacts and footer links</h3>
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <img src="assests/images/walrus.jpg">
-                                </div>
-                                <div class="col-md-5">
-                                    <p> mfienf dklfng;eisngeoingied</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="rightSide col-md-4">
-                            <h3>Social Media</h3>
-                            <div class="row">
-                                <div class="col-4">
-
-                                </div>
-                                <div class="col-4">
-                                    
-                                </div>
-                                <div class="col-4">
-                                    
-                                </div>
-    
-                            </div>
-                        </div>
-                           
-
-                </section>
+        <section id="siteMapSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="sitemapDiv">
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
             </div>
-            
+        </section>
 
+        <section id="styleGuideSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
+            <div class="styleGuideDiv">
+                <p>this is my styleguide section</p>
+                <p>this is my styleguide section</p>
+                <p>this is my styleguide section</p>
+                <p>this is my styleguide section</p>
+                <p>this is my styleguide section</p>
+                <p>this is my styleguide section</p>
+            </div>
+        </section>
 
-    <!-- fixed footer -->
-    <a href="index.html">
-        <footer>
-            <p>This is sticky footer</p>
-        </footer>
-    </a>
+        <section class="endNoteSection">
+            <h3>Thank You!</h3>
+            <p>Tammy Phillips</p>
+            <p><span>UX/UI</span> Designer & Developer</p>
+            <div class="resumeBtnContainer">
+                <a href="tammyResume.html" class="resumeBtn">Resume</a>
+            </div>
+        </section>
+
+    </div>
 
 
 
@@ -197,6 +145,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>
