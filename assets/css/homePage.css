@@ -42,7 +42,6 @@
     
     .sitemapDiv {
         height: auto;
-        background-color: teal;
         margin: 20px 0;
         position: relative;
         justify-content: center;
@@ -50,13 +49,19 @@
     }
     
     .styleGuideDiv {
-        height: 500px;
-        background-color: purple;
-        margin: 20px 0
+        height: auto;
+        margin: 20px 0;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+
     }
 
     .userPersonaDiv {
         height: 500px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
     }
 
     .wireframesDiv {
@@ -75,15 +80,16 @@
     /* end note section */
     .endNoteSection {
         text-align: center;
+        background-color: white;
     }
     
-    .endNoteSection p:first-of-type {
+    .endNoteSection h4:first-of-type {
         text-decoration: underline;
-        color: orangered;
+        color: #FA9C90;
     }
     
     .endNoteSection p span {
-        color: orangered;
+        color: #FA9C90;
         font-weight: bold;
     }
     
