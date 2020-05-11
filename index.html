@@ -7,10 +7,9 @@
     <title>Life Development Final</title>
     <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+   
 
+   
     <!-- local style sheet -->
     <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/homePage.css" type="text/css" />
@@ -26,7 +25,7 @@
 <body>
     <div class="container-fluid nonProfitContainer">
         <div class="logoContainer">
-            <img src="assests/images/finalBook.png" class="logo" width="auto" height="auto" />
+            <img src="assests/images/toppage2.png" class="logo" width="auto" height="auto" />
             
         </div>
 
@@ -179,7 +178,53 @@
         </section>
 
     </div>
+ <!-- custom script for tool tip and smooth scroll -->
+ <script>
+    $(document).ready(function () {
+        // tool tip
+        $('[data-toggle="tooltip"]').tooltip();
 
+        // smooth scroll for scroll spy
+        $("a.toTop").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+
+        // multi items carousel 
+        $('#muliCarousel.carousel').carousel({
+            interval: false
+        })
+
+        $('#muliCarousel .carousel-item').each(function () {
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < 3; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+
+        // video auto play on page load
+        $('#videoAutoPlay')[0].load();
+
+    });
+</script>
 
 
     <!-- boostrap script -->
