@@ -1,6 +1,7 @@
 .nonProfitContainer {
     margin: 0px 0px;
     background-color: #FA9C90;
+  
     }
     
     .logoContainer {
@@ -106,6 +107,9 @@
     .prototypesDiv {
         height: auto;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-weight: lighter;
+        margin-bottom: 50px;
     }
     
     .resumeBtnContainer {
@@ -136,22 +140,31 @@
         border-radius: 10px;
         font-weight: bold;
         text-transform: uppercase;
+        font-size: x-large;
+        color: #FA9C90;
+
     }
     
-    .endNoteSection .resumeBtn:hover {
-        background-color: orangered;
-        border: 1px solid transparent;
-        color: white
+   .fas {
+    font-size: xx-large;
+    color: #FA9C90;
+   }
+
+    .a.fas.fa-pager {
+        font-size: x-large;
+        color: #FA9C90;
     }
-    
-    
-    
+  
     
     /* === Media Queries ==== */
     @media only screen and (max-width: 768px) {
         .logo {
-            width: 50%;
+            width: 100%;
             height: auto
+        }
+        .persona {
+            width: 100%;
+            height: auto;
         }
     
         .nonProfitNav {
