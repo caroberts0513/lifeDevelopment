@@ -78,30 +78,9 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: relative;
         text-align: center;
+        
     }
-    /* ==== carousel multi items slider ===== */
-
-
-#muliCarousel .carousel-inner .carousel-item.active,
-#muliCarousel .carousel-inner .carousel-item-next,
-#muliCarousel .carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-#muliCarousel .carousel-inner .carousel-item-right.active,
-#muliCarousel .carousel-inner .carousel-item-next {
-    transform: translateX(25%) !important;
-}
-
-#muliCarousel .carousel-inner .carousel-item-left.active,
-#muliCarousel .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%) !important;
-}
-
-#muliCarousel .carousel-inner .carousel-item-right,
-#muliCarousel .carousel-inner .carousel-item-left {
-    transform: translateX(0)!important;
-}
+  
 
 
     .prototypesDiv {
@@ -156,7 +135,10 @@
         color: #FA9C90;
     }
   
-    
+    .col-6  {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
     /* === Media Queries ==== */
     @media only screen and (max-width: 768px) {
         .logo {
