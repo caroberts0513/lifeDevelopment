@@ -86,21 +86,32 @@
 #muliCarousel .carousel-inner .carousel-item-next,
 #muliCarousel .carousel-inner .carousel-item-prev {
     display: flex;
+    position: relative;
+    width: 100%;
 }
 
 #muliCarousel .carousel-inner .carousel-item-right.active,
 #muliCarousel .carousel-inner .carousel-item-next {
     transform: translateX(25%) !important;
+    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 #muliCarousel .carousel-inner .carousel-item-left.active,
 #muliCarousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%) !important;
+    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 #muliCarousel .carousel-inner .carousel-item-right,
 #muliCarousel .carousel-inner .carousel-item-left {
     transform: translateX(0)!important;
+    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 
